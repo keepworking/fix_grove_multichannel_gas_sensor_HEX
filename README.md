@@ -6,6 +6,7 @@ grove_MCG.hex파일을 다운로드 뒤, isp업로더를 통해서 해당 hex파
 
 
 avrdude 사용시 다음의 명령으로 업로드가 가능합니다.
+
 cmd > avrdude -p m168 -c usbtiny -U flash:grove_MCG.hex -F
 
 
